@@ -1,6 +1,6 @@
 ## About Laravel-Auditing-Mongo-DB
 
-Laravel Auditing allows you to record changes to an Eloquent model's set of data by simply adding its trait to your model. Laravel Auditing also provides a simple interface for retreiving an audit trail for a piece of data and allows for a great deal of customization in how that data is provided.
+Laravel Auditing Mongo DB is a fork from owen-it/laravel-auditing custom to MongoDB using jenssegers/laravel-mongodb.
 
 ## Official Documentation
 
