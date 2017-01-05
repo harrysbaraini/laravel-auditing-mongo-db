@@ -2,9 +2,9 @@
 
 namespace OwenIt\Auditing;
 
-use Illuminate\Database\Eloquent\Model;
+use Moloquent;
 
-class Auditing extends Model
+class Auditing extends Moloquent
 {
     use CustomAuditMessage;
 
