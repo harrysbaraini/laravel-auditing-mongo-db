@@ -1,11 +1,11 @@
 <?php
 
-namespace OwenIt\Auditing;
+namespace ThiAlves\Auditing;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Manager;
 use InvalidArgumentException;
-use OwenIt\Auditing\Contracts\Dispatcher;
+use ThiAlves\Auditing\Contracts\Dispatcher;
 
 class AuditorManager extends Manager implements Dispatcher
 {
@@ -129,7 +129,7 @@ class AuditorManager extends Manager implements Dispatcher
     /**
      * Create an instance of the database driver.
      *
-     * @return \OwenIt\Auditing\Auditor\DatabaseAuditor
+     * @return \ThiAlves\Auditing\Auditor\DatabaseAuditor
      */
     protected function createDatabaseDriver()
     {

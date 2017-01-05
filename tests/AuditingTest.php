@@ -4,7 +4,7 @@ namespace Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
-use OwenIt\Auditing\Auditing;
+use ThiAlves\Auditing\Auditing;
 
 class AuditingTest extends AbstractTestCase
 {

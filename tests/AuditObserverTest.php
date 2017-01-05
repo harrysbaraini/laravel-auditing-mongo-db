@@ -3,7 +3,7 @@
 namespace Tests;
 
 use Mockery;
-use OwenIt\Auditing\AuditObserver;
+use ThiAlves\Auditing\AuditObserver;
 
 class AuditObserverTest extends AbstractTestCase
 {

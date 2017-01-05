@@ -3,7 +3,7 @@
 namespace Tests;
 
 use Mockery;
-use OwenIt\Auditing\CustomAuditMessage;
+use ThiAlves\Auditing\CustomAuditMessage;
 
 class CustomAuditMessageTest extends AbstractTestCase
 {

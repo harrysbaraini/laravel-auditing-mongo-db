@@ -1,9 +1,9 @@
 <?php
 
-namespace OwenIt\Auditing;
+namespace ThiAlves\Auditing;
 
 use Illuminate\Support\Facades\Config;
-use OwenIt\Auditing\Contracts\Dispatcher;
+use ThiAlves\Auditing\Contracts\Dispatcher;
 
 trait Auditor
 {

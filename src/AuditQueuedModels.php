@@ -1,6 +1,6 @@
 <?php
 
-namespace OwenIt\Auditing;
+namespace ThiAlves\Auditing;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -29,7 +29,7 @@ class AuditQueuedModels implements ShouldQueue
     /**
      * Audit the model auditable.
      *
-     * @param \OwenIt\Auditing\AuditorManager $manager
+     * @param \ThiAlves\Auditing\AuditorManager $manager
      *
      * @return void
      */

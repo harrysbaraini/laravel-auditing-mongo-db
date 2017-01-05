@@ -1,6 +1,6 @@
 <?php
 
-namespace OwenIt\Auditing;
+namespace ThiAlves\Auditing;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;

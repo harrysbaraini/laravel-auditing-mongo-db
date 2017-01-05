@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use OwenIt\Auditing\Contracts\Dispatcher as AuditContract;
+use ThiAlves\Auditing\Contracts\Dispatcher as AuditContract;
 
 class DummyClass implements AuditContract
 {

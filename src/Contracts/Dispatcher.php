@@ -1,6 +1,6 @@
 <?php
 
-namespace OwenIt\Auditing\Contracts;
+namespace ThiAlves\Auditing\Contracts;
 
 interface Dispatcher
 {

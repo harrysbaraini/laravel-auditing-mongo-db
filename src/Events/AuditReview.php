@@ -1,6 +1,6 @@
 <?php
 
-namespace OwenIt\Auditing\Events;
+namespace ThiAlves\Auditing\Events;
 
 class AuditReview
 {

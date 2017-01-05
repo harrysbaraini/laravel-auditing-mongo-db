@@ -1,8 +1,8 @@
 <?php
 
-namespace OwenIt\Auditing\Auditors;
+namespace ThiAlves\Auditing\Auditors;
 
-use OwenIt\Auditing\Auditing;
+use ThiAlves\Auditing\Auditing;
 
 class DatabaseAuditor
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace OwenIt\Auditing;
+namespace ThiAlves\Auditing;
 
 use Illuminate\Support\ServiceProvider;
-use OwenIt\Auditing\Console\AuditingTableCommand;
-use OwenIt\Auditing\Console\AuditorMakeCommand;
-use OwenIt\Auditing\Console\InstallCommand;
-use OwenIt\Auditing\Contracts\Dispatcher;
-use OwenIt\Auditing\Facades\Auditing as AuditingFacade;
+use ThiAlves\Auditing\Console\AuditingTableCommand;
+use ThiAlves\Auditing\Console\AuditorMakeCommand;
+use ThiAlves\Auditing\Console\InstallCommand;
+use ThiAlves\Auditing\Contracts\Dispatcher;
+use ThiAlves\Auditing\Facades\Auditing as AuditingFacade;
 
 /**
  * This is the owen auditing service provider class.
@@ -55,7 +55,7 @@ class AuditingServiceProvider extends ServiceProvider
             InstallCommand::class,
         ]);
 
-        $this->app->bind('OwenIt\Auditing\Auditing', Auditing::class);
+        $this->app->bind('ThiAlves\Auditing\Auditing', Auditing::class);
 
         $this->app->singleton(AuditorManager::class, function ($app) {
             return new AuditorManager($app);

@@ -1,11 +1,11 @@
 <?php
 
-namespace OwenIt\Auditing\Facades;
+namespace ThiAlves\Auditing\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see OwenIt\Auditing\Auditing
+ * @see ThiAlves\Auditing\Auditing
  */
 class Auditing extends Facade
 {
@@ -16,6 +16,6 @@ class Auditing extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'OwenIt\Auditing\Auditing';
+        return 'ThiAlves\Auditing\Auditing';
     }
 }

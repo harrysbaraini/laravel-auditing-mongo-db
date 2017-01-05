@@ -3,7 +3,7 @@
 namespace Tests;
 
 use Mockery;
-use OwenIt\Auditing\AuditQueuedModels;
+use ThiAlves\Auditing\AuditQueuedModels;
 
 class AuditingQueuedAuditTest extends AbstractTestCase
 {
@@ -11,7 +11,7 @@ class AuditingQueuedAuditTest extends AbstractTestCase
     {
         $job = new AuditQueuedModels('auditable');
 
-        $manager = Mockery::mock('OwenIt\Auditing\AuditorManager');
+        $manager = Mockery::mock('ThiAlves\Auditing\AuditorManager');
         $manager->shouldReceive('audit')->once()->with('auditable');
 
         $job->handle($manager);

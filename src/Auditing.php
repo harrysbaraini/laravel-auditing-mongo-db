@@ -1,6 +1,6 @@
 <?php
 
-namespace OwenIt\Auditing;
+namespace ThiAlves\Auditing;
 
 use Moloquent;
 
