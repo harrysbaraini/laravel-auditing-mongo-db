@@ -1,22 +1,18 @@
 {
-    "name": "owen-it/laravel-auditing",
-    "description": "Keep a change history for your models using laravel and lumen",
+    "name": "thialves/laravel-auditing-mongo-db",
+    "description": "Keep a change history for your models using laravel and lumen with mongo db",
     "keywords": ["audit", "auditing", "activity", "laravel", "log", "logging", "register", "observer", "lumen"],
-    "homepage": "https://laravel-auditing.com",
+    "homepage": "",
     "type": "package",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/owen-it/laravel-auditing/issues",
-        "source": "https://github.com/owen-it/laravel-auditing"
+        "issues": "https://github.com/thialves/laravel-auditing-mongo-db/issues",
+        "source": "https://github.com/thialves/laravel-auditing-mongo-db"
     },
     "authors": [
         {
-            "name": "Antério Vieira",
-            "email": "anteriovieira@gmail.com"
-        },
-        {
-            "name": "Raphael França",
-            "email": "raphaelfrancabsb@gmail.com"
+            "name": "Thiago Alves",
+            "email": "talves.ads@gmail.com"
         }
     ],
     "require": {
@@ -34,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OwenIt\\Auditing\\": "src/"
+            "ThiAlves\\Auditing\\": "src/"
         }
     },
     "autoload-dev": {
