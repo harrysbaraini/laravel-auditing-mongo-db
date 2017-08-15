@@ -1,5 +1,5 @@
 {
-    "name": "thialves/laravel-auditing-mongo-db",
+    "name": "harrysbaraini/laravel-auditing-mongo-db",
     "description": "Keep a change history for your models using laravel and lumen with mongo db",
     "keywords": ["audit", "auditing", "activity", "laravel", "log", "logging", "register", "observer", "lumen"],
     "homepage": "",
